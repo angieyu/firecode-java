@@ -12,7 +12,7 @@ public class singleNumber {
         // else, add the element as a key to the HashMap
         HashMap<Integer, Integer> myCache = new HashMap<Integer, Integer>();
         for (int n : A) {
-            if (myCache.containsKey(n) == true) {
+            if (myCache.containsKey(n)) {
                 myCache.put(n, myCache.get(n) + 1);
             } else {
                 myCache.put(n, 1);
