@@ -5,6 +5,9 @@ import utilityClasses.ListNode;
  */
 public class listNodeRemoveLast {
     public static ListNode deleteAtTail(ListNode head) {
+        // edge cases, linkedlist is null
+        if (head == null) return null;
+        if (head.next == null) return null;
         // have two pointers A & B, A will stay one previous to B
         ListNode current = head;
         ListNode pointer = head;
