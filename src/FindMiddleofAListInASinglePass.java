@@ -5,7 +5,7 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/7/17.
  */
-public class findMiddleNode {
+public class FindMiddleofAListInASinglePass {
     public static ListNode findMiddleNode(ListNode head) {
         // edge case
         if (head == null) return null;

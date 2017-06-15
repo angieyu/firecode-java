@@ -3,7 +3,7 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/6/17.
  */
-public class fib {
+public class FibonacciNumber {
     public static int fib(int n) {
         // base case
         if (n == 0) return 0;

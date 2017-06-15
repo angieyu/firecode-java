@@ -3,7 +3,7 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/7/17.
  */
-public class replace {
+public class ReplaceAllSpaces {
         public static String replace(String a, String b) {
         StringBuilder A = new StringBuilder(a);
         StringBuilder B = new StringBuilder(b);

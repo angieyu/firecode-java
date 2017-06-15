@@ -1,7 +1,7 @@
 /**
  * Created by angie on 6/2/17.
  */
-public class flipHorizontalAxis {
+public class FlipHorizontalAxis {
     public static void flipHorizontalAxis(int[][] matrix) {
         // get the number of rows
         int n = matrix.length;

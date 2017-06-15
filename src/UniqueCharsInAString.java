@@ -5,7 +5,7 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/10/17.
  */
-public class areAllCharactersUnique {
+public class UniqueCharsInAString {
     public static boolean areAllCharactersUnique(String str) {
         // create a cache to store and count all instances of a character
         // increment the value in the cache if we see it again, return out of the function right away and return false

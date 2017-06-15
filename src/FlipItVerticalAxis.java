@@ -3,7 +3,7 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/14/17.
  */
-public class flipItVerticalAxis {
+public class FlipItVerticalAxis {
     public static void flipItVerticalAxis(int[][] matrix) {
         int rows = matrix.length;
         int columns = matrix[0].length;

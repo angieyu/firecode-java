@@ -3,14 +3,14 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/7/17.
  */
-public class bubbleSortArray {
+public class BubbleSort {
     public static int[] bubbleSortArray(int[] arr) {
-        // two nested loops
-        // 1st is a reverse loops
-        // use a tail index to keep track of elements moved to the end
-        // outer loop decrements the tail index
-        // nested loop iterate from the start to the tail
-        // use temp var to do the swap
+//         two nested loops
+//         1st is a reverse loops
+//         use a tail index to keep track of elements moved to the end
+//         outer loop decrements the tail index
+//         nested loop iterate from the start to the tail
+//         use temp var to do the swap
         int tail = arr.length - 1;
         for (int i = tail; i >= 0; i--) {
             for (int j = 0; j < tail; j++) {
@@ -25,8 +25,12 @@ public class bubbleSortArray {
         return arr;
     }
 
+
     public static void main(String[] args) {
         int[] testArr = {5, 4, 3};
-        out.println(bubbleSortArray(testArr));
+        int[] newArr = bubbleSortArray(testArr);
+        for (int n : newArr) {
+            out.println(n);
+        }
     }
 }

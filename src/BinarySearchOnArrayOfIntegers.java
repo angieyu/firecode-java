@@ -6,7 +6,7 @@ import static java.util.Arrays.*;
 /**
  * Created by angie on 6/7/17.
  */
-public class binarySearch {
+public class BinarySearchOnArrayOfIntegers {
     public static Boolean binarySearch(int[] arr, int n) {
         if (arr.length == 0) {
             return false;

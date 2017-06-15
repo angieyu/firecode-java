@@ -3,7 +3,7 @@ import utilityClasses.ListNode;
 /**
  * Created by angie on 6/2/17.
  */
-public class deleteAtTail {
+public class DeleteListsTailNode {
     public static ListNode deleteAtTail(ListNode head) {
         // edge cases, linkedlist is null
         if (head == null) return null;

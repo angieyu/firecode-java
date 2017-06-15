@@ -5,7 +5,7 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/5/17.
  */
-public class singleNumber {
+public class FindTheNumberThatAppearsOnce {
     public static int singleNumber(int[] A) {
         // instantiate a cache, add all elements of array to cache
         // if you encounter the same element, increment the value of the HashMap

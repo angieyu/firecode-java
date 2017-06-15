@@ -3,7 +3,7 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/10/17.
  */
-public class isStringPalindrome {
+public class PalindromeTester {
     public static boolean isStringPalindrome(String str) {
         // iterate through the str input with two pointer, one pointer starting from the front and one pointer starting from the back
         if (str == null) return true;

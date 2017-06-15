@@ -3,7 +3,7 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/7/17.
  */
-public class reverseString {
+public class ReverseAString {
     public static String reverseString(String str) {
         // edge case
         if (str == null) return null;

@@ -6,7 +6,7 @@ import static java.lang.System.out;
 /**
  * Created by angie on 6/10/17.
  */
-public class duplicate {
+public class RepeatedElementsInAnArray {
     public static String duplicate(int[] numbers) {
         // find repeated or duplicate elements in an array
         // return a list of repeated integers in a string with the elements sorted in ascending order

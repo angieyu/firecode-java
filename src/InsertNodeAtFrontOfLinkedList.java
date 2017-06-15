@@ -5,7 +5,7 @@ import utilityClasses.ListNode;
 /**
  * Created by angie on 6/7/17.
  */
-public class insertAtHead {
+public class InsertNodeAtFrontOfLinkedList {
     public static ListNode insertAtHead(ListNode head, int data) {
         // make a new ListNode
         ListNode curr = new ListNode(data);
