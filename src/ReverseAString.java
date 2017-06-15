@@ -12,7 +12,6 @@ public class ReverseAString {
 
         StringBuilder sb = new StringBuilder();
         for (int i = inputString.length() - 1; i >= 0; i--) {
-
             sb.append(inputString.charAt(i));
         }
         outputString = sb.toString();
