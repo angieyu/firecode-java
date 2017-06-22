@@ -25,5 +25,6 @@ public class BinarySearchOnArrayOfIntegers {
         int[] testArr = {2, 5, 7, 9, 12};
         boolean result = binarySearch(testArr, 2);
         out.println(result);
+
     }
 }
