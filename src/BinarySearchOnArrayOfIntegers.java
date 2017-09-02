@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 import static java.lang.System.out;
-import static java.util.Arrays.*;
 
 /**
  * Created by angie on 6/7/17.
